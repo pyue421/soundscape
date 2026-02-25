@@ -9,7 +9,7 @@ body {
 
 body {
   margin: 0;
-  font-family: "Chicago", "Geneva", "Monaco", monospace;
+  font-family: "Chicago", monospace;
   color: #2e2e30;
   background: radial-gradient(circle at top, #fafafa, #dddddf 75%);
   min-height: 100vh;
@@ -315,7 +315,7 @@ h1 {
       rgba(255, 255, 255, 0.05) 1px,
       rgba(255, 255, 255, 0.05) 2px
     );
-  font-family: "Chicago", "Geneva", "Monaco", monospace;
+  font-family: "Chicago", monospace;
   --settings-font-size: 0.74rem;
   font-size: var(--settings-font-size);
 }
@@ -417,7 +417,7 @@ input[type="range"] {
   border: 1px solid #8b8d8d;
   background: #f3f4ef;
   color: #1e1f22;
-  font-family: "Chicago", "Geneva", "Monaco", monospace;
+  font-family: "Chicago", monospace;
   font-size: var(--settings-font-size);
   text-align: left;
 }
@@ -433,12 +433,12 @@ input[type="range"] {
 }
 
 input[type="file"]::file-selector-button {
-  font-family: "Chicago", "Geneva", "Monaco", monospace;
+  font-family: "Chicago", monospace;
   font-size: var(--settings-font-size);
 }
 
 input[type="file"]::-webkit-file-upload-button {
-  font-family: "Chicago", "Geneva", "Monaco", monospace;
+  font-family: "Chicago", monospace;
   font-size: var(--settings-font-size);
 }
 
