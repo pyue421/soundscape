@@ -198,7 +198,7 @@ export class AudioEngine {
 
     this.updateAnalysis();
     this.scheduleTick();
-    this.visualizer.draw(this.analysisAnalyser);
+    this.visualizer.draw(this.analysisAnalyser, this.mediaEl);
     this.rafId = requestAnimationFrame(this.mainLoop);
   }
 
